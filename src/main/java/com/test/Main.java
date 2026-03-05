@@ -19,7 +19,7 @@ public class Main {
 		System.out.println("Navigated to: " + page.url());
 		System.out.println("Page title: " + page.title());
 
-		page.locator("input[name='email']").fill("trainer@way2automation.com");
+		page.locator("input[name='email']").fill("trainer1@way2automation.com");
 		page.locator("input[name='pass']").fill("test1234");
 		page.locator("button[name='login']").click();
 		browser.close();
